@@ -532,6 +532,15 @@ li,
 /* Contact Section */
 /*=============== Contact ===============*/
 /* Contact Section */
+
+.dd {
+    margin-left: 30%;
+}
+
+.contact__card {
+    display: flex;
+}
+
 .contact_section {
     background-color: #323946;
     padding: 4rem 0;
@@ -540,7 +549,7 @@ li,
 .contact__container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; 
+    align-items: flex-start;
     gap: 2rem;
 }
 
@@ -549,14 +558,14 @@ li,
 }
 
 .contact__title {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Increased font size */
     color: #fff;
     margin-bottom: 1.5rem;
 }
 
 .contact__card {
     background-color: #2c3140;
-    padding: 1.5rem;
+    padding: 2rem; /* Increased padding */
     border-radius: 1rem;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -566,31 +575,37 @@ li,
     background-color: #4e90a4;
 }
 
+.change {
+    display: flex;
+}
+
 .contact__card-icon {
-    font-size: 3rem;
+    font-size: 4rem; /* Increased font size */
     color: #fff;
     margin-bottom: 1rem;
 }
 
 .contact__card-title {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increased font size */
     font-weight: bold;
     color: #fff;
     margin-bottom: 0.5rem;
 }
 
 .content__card-data {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Increased font size */
     color: #fff;
     display: block;
     margin-bottom: 1rem;
 }
 
-.contact__button {
-    font-size: 1.2rem;
+.contact__button{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* Increased font size */
     color: #fff;
     background-color: #4e90a4;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 2rem; /* Increased padding */
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -611,21 +626,21 @@ li,
     top: -1.5rem;
     left: 1.5rem;
     background-color: #4e90a4;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem; /* Increased padding */
     border-radius: 0.25rem;
     color: #fff;
-    font-size: 0.875rem;
+    font-size: 1.2rem; /* Increased font size */
 }
 
 .contact__form-input,
 .contact__form-area textarea {
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem; /* Increased padding */
     border: 2px solid #fff;
     border-radius: 0.5rem;
     background: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5rem; /* Increased font size */
     transition: border-color 0.3s ease;
 }
 
@@ -637,8 +652,8 @@ li,
 .button {
     background-color: #4e90a4;
     color: #fff;
-    font-size: 1.2rem;
-    padding: 0.75rem 1.5rem;
+    font-size: 1.5rem; /* Increased font size */
+    padding: 1rem 2rem; /* Increased padding */
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -664,18 +679,17 @@ li,
 }
 
 .footer__title {
-    font-size: 2rem;
-    font-size: x-large;
+    font-size: 2.5rem; /* Increased font size */
 }
 
 .footer__list {
     display: flex;
-    gap: 1.5rem;
-    font-size:x-large;
+    gap: 2rem; /* Increased gap */
+    font-size: 2.5rem; /* Increased font size */
 }
 
 .footer__link {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Increased font size */
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -685,14 +699,14 @@ li,
     color: #4e90a4;
 }
 
-.footer__social{
-    margin:0;
+.footer__social {
+    margin: 0;
     justify-content: center;
     align-items: center;
 }
 
 .footer__social-link {
-    font-size: 2.0rem;
+    font-size: 3rem; /* Increased font size */
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -703,18 +717,17 @@ li,
 }
 
 .footer__copy {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increased font size */
 }
 
 .footer__social a {
-   
     justify-content: center;
-    margin-right: 40px; 
-    
-  }
-  .footer__social .fa-brands,
+    margin-right: 40px;
+}
+
+.footer__social .fa-brands,
 .footer__social .fab {
-  font-size: 24px; /* Adjust as needed */
+    font-size: 3rem; /* Increased font size */
 }
 
 

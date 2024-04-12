@@ -246,38 +246,49 @@
   <span class="section__subtitle"></span>
   <div class="contact__container container grid">
       <div class="contact__content">
-          <h3 class="contact__title">Talk with me</h3>
+          <h3 class="contact__title" style="margin-left:37%;">Talk with me</h3>
           <div class="contact__info">
               <!-- Left section -->
               <div class="contact__card">
-                  <i class='bx bx-mail-send contact__card-icon'></i>
+                 
+                    <div class="contact__button">
+                        <i class="far fa-envelope" margin right="30px" style="margin-top: 1rem;"></i>
+                    </div>
+                    <div class="dd" style="margin-left: 25%;">
                   <h3 class="contact__card-title">Email</h3>
-                  <span class="content__card-data">Shivaaryal62@gmail.com</span>
-                  <a href="mailto:shivaaryal62@gmail.com" target="_blank" class="contact__button">
-                     <i class="far fa-envelope"></i>
-                  </a>
-              </div>
-              <div class="contact__card">
-                  <i class='bx bxl-whatsapp contact__card-icon'></i>
+                   <span class="content__card-data">Shivaaryal62@gmail.com</span>
+                  <a href="mailto:shivaaryal62@gmail.com" target="_blank" ></a>
+                  </div>
+                 </div>
+
+
+                 <div class="contact__card">
+                  <div class="contact__button">
+                        <i class="fab fa-whatsapp" margin right="30px" style="margin-top: 1rem;" ></i>
+                    </div>
+                    <div class="dd">
                   <h3 class="contact__card-title">Whatsapp</h3>
-                  <span class="content__card-data">+977 9804185335</span>
-                  <a href="https://api.whatsapp.com/send?phone=+977 9804185335 &text=Hello, more information!" target="_blank" class="contact__button">
-                     <i class="fab fa-whatsapp"></i>
-                  </a>
-              </div>
-              <div class="contact__card ">
-                  <i class='bx bxl-messenger contact__card-icon'></i>
-                  <h3 class="contact__card-title">Messenger</h3>
-                  <span class="content__card-data">shiva.aryal.161</span>
-                  <a href="https://www.facebook.com/shiva.aryal.161" target="_blank" class="contact__button">
-                     <i class="fab fa-facebook-messenger"></i>
-                  </a>
-              </div>
+                   <span class="content__card-data">+977 9804185335</span>
+                  <a href="https://api.whatsapp.com/send?phone=+977 9804185335 &text=Hello, more information!" target="_blank" ></a>
+                  </div>
+                 </div>
+
+                 <div class="contact__card">
+                    <div class="contact__button">
+                          <i class="fab fa-whatsapp" margin right="30px" style="margin-top: 1rem;"></i>
+                      </div>
+                      <div class="dd">
+                    <h3 class="contact__card-title">Messenger</h3>
+                     <span class="content__card-data">shiva.aryal.161</span>
+                    <a href="https://www.facebook.com/shiva.aryal.161" target="_blank" ></a>
+                    </div>
+                   </div>
+                   
           </div>
       </div>
       <!-- Right section -->
       <div class="contact__content">
-          <h3 class="contact__title">Write me your project</h3>
+          <h3 class="contact__title" style="margin-left:37%;">Write me your project</h3>
           <form id="contactForm" action="/send" method="POST" class="contact__form">
             <div class="contact__form-div">
                 <label for="name" class="contact__form-tag">Name</label>
@@ -289,7 +300,7 @@
             </div>
             <div class="contact__form-div contact__form-area">
                 <label for="message" class="contact__form-tag">Project</label>
-                <textarea id="message" name="message" cols="30" rows="10" placeholder="Write your project" class="contact__form-input" required></textarea>
+                <textarea id="message" name="message"  placeholder="Write your project" class="contact__form-input" required></textarea>
             </div>
             <button type="submit" class="button">Send Message</button>
         </form>
